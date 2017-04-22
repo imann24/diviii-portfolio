@@ -88,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #1abc9c;
-	background-color: transparent;
 	border-bottom: 2px solid #1abc9c
 }
 
@@ -126,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 80px;
+	font-size: 8vw;
 	font-weight: bold;
 }
 
@@ -187,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 80px;
+	font-size: 80;
 	font-weight: bold;
 }
 
@@ -227,4 +226,35 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+.dropdown-menu li a {
+     color: #1abc9c;
+}
+
+@media (max-width: 767px) {
+     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+         color: #1abc9c;
+     }
+}
+
+.navbar-collapse.in {
+     overflow-y: visible;
+}
+
+.navbar-collapse.in a, a:active, a:hover {
+     background: #0C0C0C;
+}
+@media (max-width: 767px) {
+     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          background: #aaa;
+     }
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+     background: #aaa;
+}
+
+.navbar-brand {
+     background: #0C0C0C;
 }
